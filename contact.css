@@ -1,0 +1,22 @@
+/* Стили для элементов списка <li> */
+li {
+    list-style-type: none; /* Убираем маркеры списка */
+    display: inline-block; /* Размещение элементов в строку */
+    margin-right: 20px; /* Отступы между элементами */
+}
+
+/* Стили для ссылок <a> */
+li a {
+    text-decoration: none; /* Убираем подчеркивание */
+    color: #ffffff; /* Цвет текста */
+    background-color: #007bff; /* Фон кнопки */
+    padding: 10px 20px; /* Внутренние отступы */
+    border-radius: 5px; /* Закругленные углы */
+    font-weight: bold; /* Полужирный шрифт */
+    transition: background-color 0.3s ease; /* Плавное изменение фона при наведении */
+}
+
+/* Стили при наведении на ссылку */
+li a:hover {
+    background-color: #0056b3; /* Цвет фона при наведении */
+}
